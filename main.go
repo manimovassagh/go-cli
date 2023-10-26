@@ -33,7 +33,7 @@ func updateCommitPush() {
 	}
 
 	// Command 3: Push to remote (origin master)
-	pushCmd := exec.Command("git", "push", "origin", "master")
+	pushCmd := exec.Command("git", "push")
 	pushCmd.Stderr = os.Stderr
 	pushCmd.Stdout = os.Stdout
 	err = pushCmd.Run()
