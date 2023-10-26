@@ -17,7 +17,7 @@ func updateCommitPush() {
 		os.Exit(1)
 	}
 
-	// Prompt the user for a commit message
+	// Prompt the user for a commit message to
 	fmt.Print("Enter a commit message: ")
 	var commitMsg string
 	fmt.Scanln(&commitMsg)
