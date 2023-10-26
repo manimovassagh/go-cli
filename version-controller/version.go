@@ -1,4 +1,4 @@
-package git
+package version_controller
 
 import (
 	"fmt"

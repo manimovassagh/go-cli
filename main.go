@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/manimovassagh/command-app/git"
+	version_controller "github.com/manimovassagh/command-app/version-controller"
 )
 
 func main() {
-	git.UpdateCommitPush()
+	version_controller.UpdateCommitPush()
 }
